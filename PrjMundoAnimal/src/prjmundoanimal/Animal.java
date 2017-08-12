@@ -20,6 +20,8 @@ public class Animal {
             this.sexoAnimal = 'f';
         else if(sexoAnimal == "transgenero")
             this.sexoAnimal = 't';
+        else 
+            this.sexoAnimal = 'x';
     }
     
     public String getSexoAnimal() {
