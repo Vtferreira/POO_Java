@@ -20,5 +20,19 @@ public class PrjMundoAnimal {
         edmundoAnimal.setSexoAnimal("transgenero"); // definindo o sexo
         String resultado = edmundoAnimal.getSexoAnimal(); //obtemos o sexo
         System.out.println(resultado + " " + ("transgenero" == resultado)); // imprimimos o sexo
+        
+        Mamifero leao = new Mamifero();
+        leao.setSexoAnimal(resultado);
+    
+    
+    
     }
+    
+        
+        
 }
+
+
+// Para casa, adicionar  02 novos atributos e seus metodos acessores na nova classe Mamifero e classe Animal e 
+// implementar o teste para ambas as classes.
+// escrever em folha.

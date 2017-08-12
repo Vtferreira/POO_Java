@@ -11,14 +11,13 @@ package prjmundoanimal;
  * @author aluno
  */
 public class Mamifero extends Animal {
-    private int tamanho;
-    private String porte;
+    
     
     public Mamifero(){
         
     }
     
-    Mamifero rato = new Mamifero();
+    
     
     
     
